@@ -1,0 +1,251 @@
+/* Start Navbar */
+
+.nav-header .header-logo img{
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin: 0 -47px;
+}
+
+
+.navbar-inverse .navbar-brand
+{
+    color:#BBB;
+    line-height:40px;
+    font-family: 'CF JUNGLE', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #FFF
+}
+
+.navbar-inverse .navbar-brand span {
+    font-size: 40px;
+}
+
+.navbar-header .navbar-brand img{height: 237%;}
+
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-menu > li > a{
+    font-family: 'Droid Sans';
+    font-weight: 600;
+}
+
+/* End Navbar */
+
+/* Start About Us */
+
+.about-us{
+    padding: 35px 0
+}
+
+.about-us h1 {
+    font-family:'Raleway', sans-serif;
+    letter-spacing: -2px;
+    font-size: 60px
+}
+
+.about-us hr{width: 97%; margin-bottom: 30px}
+
+.about-us p{font-family: cursive; margin-bottom: 30px;font-weight: bold}
+
+.about-us img {width: 100%; margin-bottom: 30px}
+
+.about-features {
+    padding:0 0 70px
+}
+
+.about-features .part-2,.part-3 {border-left: solid #eee 2px;}
+
+.about-features h3{ 
+    color:#389e54;
+    font-size: 7rem
+} 
+
+.about-features h3{
+    font-family: cursive;
+}
+
+.about-features p{
+    font-family: cursive;
+    font-size: 1.9rem;
+    line-height: 1.7;
+    padding: 0 4rem;
+    margin-bottom: 30px
+}
+
+.about-zookeeper{
+    background-color:#EEE;
+    padding-top:40px
+}
+
+.about-zookeeper h2{
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.about-zookeeper .lead{
+    font-family: cursive;
+    line-height:1.8
+}
+
+.about-zookeeper .btn-primary{
+    background-color: #3e8a40;
+    border-color: #7ca365;
+    margin-bottom: 30px
+}
+
+.about-zookeeper .btn-primary:hover{background-color:#7ca365}
+
+.about-us img{border-radius: 21% 15% 18% 21%/10% 14% 19% 30%;}
+
+/* End About Us */
+
+/* Start FAQs Section */
+
+.faq 
+{
+    padding : 40px 0
+}
+
+.faq h1{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -2px;
+    font-size: 50px
+}
+
+.faq p{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.faq h1~hr {
+    width: 60%
+}
+
+.faq-questions .panel-heading{
+    padding: 20px 15px;
+    background-color: #389e54;
+    color: #FFF
+}
+
+
+.panel-title > a{
+    font-family: 'Droid Sans';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    font-family: 'Droid Sans';
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #d6dbd2;
+    border-top:none
+}
+
+.panel-title > a {
+    display: block;
+    text-decoration:none
+}
+
+.faq-questions .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color:#444
+}
+
+.faq-questions .panel-heading a.collapsed:after{
+    content: "\e080";
+    color:#444
+}
+
+/* End FAQs Section */
+
+/* Start Footer Section */
+
+.footer ul{
+    font-family: cursive
+}
+
+.footer .media-body{
+    font-family: cursive
+}
+
+.footer .our-awesome-animals .animal-1{
+    transform: rotate(-4deg);
+}
+
+.footer .our-awesome-animals .animal-2{
+    transform: rotate(6deg);
+}
+
+.footer .our-awesome-animals .animal-3{
+    transform: rotate(6deg);
+}
+
+.footer .our-awesome-animals .animal-4{
+    transform: rotate(-4deg);
+}
+
+.footer .our-awesome-animals .animal-11{
+    transform: rotate(6deg);
+}
+
+.footer .our-awesome-animals .animal-22{
+    transform: rotate(-4deg);
+}
+
+.footer .our-awesome-animals .animal-33{
+    transform: rotate(-12deg);
+}
+
+.footer .our-awesome-animals .animal-44{
+    transform: rotate(6deg);
+}
+
+.footer .bottom-img{
+    background: url(../images/animals-footer-04.png) no-repeat center center;
+    width: 383px;
+    height: 118px;
+    float: right;
+    margin: -116px 101px -227px;
+    animation: swing 6s infinite;
+}
+
+.copyright .copyright-text{
+    padding: 25px;
+}
+
+
+.copyright img{
+    max-width: 100%;
+    float: left;
+    margin: 0 -318px 0px;
+    
+}
+
+@media (max-width:767px) {
+    .footer .copyright img {
+        width: 300px;
+        max-width: 100%;
+        margin-top: -30px !important;
+        display: inline-block;
+        float: none
+    }
+}
+
+/* End Footer Section */
+
+/* Start Map Page */
+
+
+.map{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #d6dbd2;
+}
+
+
+/* End Map Page */

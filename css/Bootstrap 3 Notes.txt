@@ -1,0 +1,389 @@
+Lare Scree                   lg
+Medium Screen            md
+Small Screen               sm
+Extra Small Screen       xm
+
+
+
+col-lg-4
+
+
+grid system = 12 unit
+
+col = column
+lg = large Screen
+
+
+visible  // show
+hidden // hide
+
+
+hidden-(screen name) // hidden-lg
+visible-(screen name)-( block / inline-block / inline-block ) // visible-md
+
+-------------------------------------------------------------------------------
+
+Navbar: part 1; ep#11;
+
+1- navbar-inverse : for inversing nav's color
+2- navbar-fixed-top : for making navbar staying while scrolling from the top to the bottom of the page
+3- navbar-right :for nav's direction
+
+---------------------------------------------------------------------------------------------------------------
+
+Navbar: part 2; ep#12: for making a great hover on dropdown-menu
+
+    -webkit-transition:padding 0.5s ease;
+    -mo-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+    
+----------------------------------------------------------------------------
+
+Carousel: part 2; ep#14
+
+1- For Making A Big Paragraph should use class="lead" inside <p> : <p class="lead"></p>
+
+2- For Making a frame to the text and changing the opacity of the frame like (0.5 or 0.3) :
+
+background:rgba(3,3,3,0.3);
+
+1- For making Carousel Slider Timing , Should make a new plugins.js and save it in js folder
+then call or add it to index.html above <script src="js/bootstrap.min.js"></script> and type :
+<script src="js/plugins.js"></script>
+ 
+ and add this code to plugins.js :
+ 
+ $(document).ready(function(){
+    $('.carousel').carousel({
+        interval:6000
+    });
+ });
+ 
+ --------------------------------------------------------------------------------------------------------
+ 
+Section About : ep#15
+
+1- <section></section> : works like <div></div>
+
+2- Making a word stronger , should add <strong></strong> For Example  : <strong>Bootstap</strong>
+
+-------------------------------------------------------------------------------------------------------------------
+
+Carousel Other Users Testimonials : ep#19
+
+Styles.css
+
+1- For Making A Half Of The Page'Line : line-height:2em;
+
+2- To Reset The Indicators Postion : position:static;
+
+3- To Reset The Indicators Images Postion : text-indent:0;
+
+4- For Making a Great Indicators, Should Put to   .testimonials .carousel-indicators li   : opacity:0.4;
+    And  opacity:1; To The Active Indicator   .testimonials .carousel-indicators li.active
+
+5- To Make a Great Border, Add To   .testimonials .carousel-indicators li  :
+    border:3px solid #FFF;
+    border-radius:50%;
+    overflow:hidden;
+    
+    And These Code to The Active Indicator    .testimonials .carousel-indicators li.active
+    background:none;
+    border: 3px solid #E41B17
+    
+    
+6- For Making A Great Move To The Image'Sliding, Should Add To    .testimonials .carousel-indicators li
+
+    -webkit-transition:all 0.5s ease;
+    -mo-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+    
+-------------------------------------------------------------------------------------------------------------------
+
+Section Table Price part 1; ep#20
+
+1- To Reset The Unorder list'Styles : Should Add    class="list-unstyled" to   <ul>
+
+<ul class="list-unstyled">
+
+-------------------------------------------------------------------------------------------------------------------
+
+Section Table Price part 2; ep#21
+
+1- To Make a Color For <h2> like The Same Button'Color : Add in HTML  Class="text-primary"
+
+Like an Example  :  <h2 class="text-primary">Hosting</h2>
+
+2- For Making The Price Area Inside A Box We Should First Make It Block Inside <p> in HTML And Add Class Called "center-block" 
+
+Like an Example  :  <p class="center-block">$40</p>
+
+Then Add in   .price_table .price-box p  In CSS :
+
+    width:100px;
+    height:100px;
+    background:#F3F3F3;
+    border-radius:50%;
+    border:2px solid #FFF;
+
+To Make The Price in The Center Add :  line-height:100px;
+
+3- For Making a Great Hover In The Price Circle Add to  .price_table .price-box p  :   
+
+    border:2px solid #FFF;
+    -webkit-transition-duration:0.5s;
+    -moz-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    transition-duration:0.5s;
+    
+Then Add To  .price_table .price-box:hover p  :
+
+    -webkit-transform:scale(1.1,1.1) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.1,1.1) rotate(360deg);
+    transform:scale(1.1,1.1) rotate(360deg);
+    border:2px solid #DFDFDF
+    
+------------------------------------------------------------------------------------------------------------------
+
+Section Our Team part 1; ep#22
+
+1- For Adding A Background In CSS , Add in URL('..') To Take One Step Back in
+    Css First Then add The Path in The Images Folder
+    
+    For An Example  : 
+    
+    background:url('../images/Jungles_03.jpg') no-repeat center center fixed ;
+
+2- For Making A Background'Color To The Image Add To Css  :
+
+    background:rgba(2,2,2,0.8);
+    
+-------------------------------------------------------------------------------------------------------------------    
+    
+Section Our Team part 2; ep#23
+
+1- For Making A Border Radius To The Image In HTML NOT CSS  .. Add    class="img-circle"  After <img
+    For Example :  <img class="img-circle"  src="images/Karen-Gillan-02.jpg" alt="Karen Gillan" />
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+Section Subscribe; ep#25
+ 
+1- To Make Spaces Between Letters  Add  in CSS  :  letter-spacing:5px;  
+    
+    
+2- To Make A Serch Section With A Text And Button
+    
+    Sould first Make A Tag Included
+    
+    <form></form>
+    
+    and To Make The Text and The Button Together  Should Add  :  class="from-inline"  Inside <form>
+    
+    <form class="form-inline">
+    
+3- in This Code :  <input class="form-control input-lg" type="text" placeholder="Write Your Email">
+
+    To Make A Text Section Sould Type  :  <input type="text">
+    
+    Then add  :   class="form-control input-lg"     to make The Input Bigger
+    
+    Then To Make A Text Inside The Input To Tell Them For Example : Write Your Email
+    
+    Add  after type"text"  :  placeholde="Write Your Email">
+    
+    <input class="form-control input-lg" type="text" placeholder="Write Your Email">
+    
+4-  In This Code  :  <button class="btn btn-danger btn-lg"><i class="fas fa-edit"></i>Subscribe</button>
+
+    To Make A Button Sould Type  :  <button></button>
+    
+    Then To Add A Button From Bootstrap Add after <button  :  class="btn btn-danger btn-lg"
+    
+    And To add an Icon Inside The Button  Add  :  <i class="fas fa-edit"></i>
+
+    <button class="btn btn-danger btn-lg"><i class="fas fa-edit"></i>Subscribe</button>
+    
+--------------------------------------------------------------------------------------------------------------------------
+
+Section Statistics ; ep#26
+
+1- To Make A Great Hover, Add To CSS  :
+
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;    
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Retouch 1 Section Backgrounds; ep#27
+
+1- When You Make A Zoom-out On The Browser The Image Will Not Be in Fullscreen TO Do That Add IN CSS
+    Under The Background URL Code  :   
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    
+    
+--------------------------------------------------------------------------------------------------------------------------
+
+Section Our Skills; ep#28
+
+1- To Make A Progressbar In HTML ADD Code  :
+
+    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-vlauemax="100" style="width:80%">
+
+    and To Make More Progressbar
+    
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-vlauemax="100" style="width:80%">
+                                    Karate
+                                </div>
+                            </div>    
+
+2- To Make Button In HTML ADD Code  :
+    
+    <button type="button" class="btn btn-primary">Talk With A Zoologist</button>
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Section Contact Us ; ep#29
+
+1- To Make Form Make First a Grid System Then Type :
+
+    <div class="col-md-6">
+        <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Username">    
+        </div>
+    </div>
+    
+    
+2- To Make a Textarea Make First a Grid System Then Type :
+
+    <div class="col-md-6">
+        <div class="form-group">
+            <textarea class="form-control input-lg" placeholder="Write Your Message"></textarea>
+        </div>
+    </div>
+    
+    <button type"button" class="btn btn-danger btn-lg btn block">Contact Us</button>
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Creat The Loading Screen ; ep#39
+
+To Make a Fantastic Loading Screen After Making HTML & CSS, GO to jQuery in plugins.js Then Type  :
+
+
+// Loding Screen
+
+$(window).load(function()
+{
+    // Show The Scroll
+    
+    $("body").css("overflow","auto");
+    
+    // Loading Elements
+    
+    $(".loading-overlay .spinner").fadeOut(2000,
+    function()
+    {
+        $(this).parent().fadeOut(2000,
+        function()
+        {
+            $(this).remove();
+        });
+    });
+});
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Creat a Scroll To Top Button ; ep#40
+
+To Make a Scroll To The Top Make The Button In HTLM :
+
+        <div id="scroll-top">
+            <i class="fas fa-chevron-up fa-3x"></i>
+        </div>
+        
+Then Add The Attributes in CSS :
+    
+#scroll-top
+{
+    width:50px;
+    height:40px;
+    background:#777;
+    color:#DDD;
+    text-align:center;
+    position:fixed;
+    z-index:9999;
+    right:15px;
+    bottom:10px;
+    cursor:pointer;
+    display:none
+}
+
+
+Then Add To plugins.js File :
+
+    // Caching The Scroll Top Element
+    
+    var scrollButton = $("#scroll-top");
+    $(window).scroll(function()
+    {
+        console.log( $(this).scrollTop() );
+        
+        if ( $(this).scrollTop() >= 800 )
+        {
+            scrollButton.show();
+        }
+        else
+        {
+            scrollButton.hide();
+        }
+        
+    });
+    
+        // Click On Button To Scroll top
+        
+        scrollButton.click(function()
+        {
+            $("html,body").animate({ scrollTop : 0 }, 900);
+        });
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Using Nice Scroll ; ep#48
+
+First Add js File in HTML on The Bottom Of The Page :
+
+    <script src="js/jquery.nicescroll.min.js"></script>
+        
+Then Add To plugins.js  : 
+
+    $("html").niceScroll({
+        cursorcolor: "rgb(46, 204, 113)",
+        cursorwidth: "12px"
+    });
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+

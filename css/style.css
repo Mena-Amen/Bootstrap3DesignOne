@@ -1,0 +1,603 @@
+body
+{
+    padding-top:70px;
+}
+
+h1,.h1,h2,h3,h4,h5, .lead {font-family: 'Droid Sans', sans-serif;}
+
+/***** Start Overriding Bootstrap *****/
+
+/* Main Navbar */
+
+.navbar {min-height:70px;}
+
+.navbar-inverse{
+    background-color: #41474c;
+    border-color: #41474c
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top:after {
+    position : absolute;
+    content : '';
+    display : block;
+    background : linear-gradient(135deg, #41474c 25%, transparent 25%),
+    linear-gradient(-135deg,#41474c 25%, transparent 25%);
+    background-size: 8px 31px;
+    height: 24px;
+    width: 100%;
+    left: 0;
+}
+
+/* Navbar Link */
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color:#BBB;
+    padding-top:25px;
+    padding-bottom:25px;
+    font-size:16px;
+}
+
+/* Brand Name */
+
+.navbar-inverse .navbar-brand
+{
+    color:#BBB;
+    line-height:40px;
+    font-family: 'CF JUNGLE', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #FFF
+}
+
+.navbar-inverse .navbar-brand span {
+    font-size: 40px;
+}
+
+/* Dropdown Menu */
+
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-menu > li > a{
+    font-family: 'Droid Sans';
+    font-weight: 600;
+}
+
+.dropdown-menu {background-color:#333;min-width:200px}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+
+.dropdown-menu > li > a
+{
+    color:#FFF;
+    padding:6px 20px;
+    -webkit-transition:padding 0.5s ease;
+    -mo-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {color:#FFF;padding-left:25px;}
+
+.dropdown-menu .divider {background-color:#871818;}
+
+/* Navbar Toggle */
+
+.navbar-toggle {margin-top:18px;}
+
+/* Carousel */
+
+.carousel-caption
+{
+    bottom:75px;
+    background:rgba(3,3,3,0.3);
+    right:38%;
+    left:38%;
+}
+
+/* Stars Slider Text's Color */
+
+.Rhino-new-class {color:#e8b771;}
+
+.Cheetah-new-class {color:#c3be4f;}
+
+.Giraffe-new-class {color:#d6dbd2;font-size:17px;}
+
+.Crocodile-new-class {font-size: 17px;}
+
+/* End Slider Text's Color */
+
+.carousel-indicators {bottom:10px;}
+
+.carousel-indicators li {height:15px;width:15px;border:1px solid #EEE}
+
+.carousel-indicators .active {width:17px;height:17px;}
+
+.carousel-inner > .item > img {width:100%}
+
+/***** End Overriding Bootstrap *****/
+
+/* Start Section Tool Box */
+
+.option-box
+{
+    position:fixed;
+    top:100px;
+    left:0;
+    z-index:9999
+}
+
+.option-box .color-option
+{
+    float:left;
+    background:#333;
+    color:#FFF;
+    padding:10px;
+    width:200px;
+    display:none
+}
+
+.option-box .color-option ul li
+{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    margin-right:3px;
+    cursor:pointer;
+}
+
+.option-box .gear-check {padding:5px;color:#FFF;cursor:pointer}
+
+/* End Section Tool Box */
+
+/* Start Section About */
+
+.about {padding-top:60px;padding-bottom:60px;}
+
+.about .lead {color:#888;margin-top:15px;font-size:25px;}
+
+.about h1 {font-weight:bold;}
+
+/* End Section About */
+
+
+/* Start Section Features*/
+
+.features {background:#EEE;padding-top:50px;padding-bottom:50px;}
+
+.features .feat {margin-bottom:30px;}
+
+.features .feat p {line-height:2em}
+
+.features .feat span.glyphicon {font-size:25px;margin-bottom:10px;color:#666}
+
+/* End Section Features */
+
+
+/* Start Testimonials Section */
+
+.testimonials {padding-top:50px;padding-bottom:50px;}
+
+.testimonials .lead {line-height:2em;margin-bottom:10px;}
+
+.testimonials span {font-size:18px;font-weight: bold;}
+
+.testimonials .carousel-inner {min-height:160px}
+
+.testimonials .carousel-indicators {position:static;width:100%;margin-left:auto;padding-top:20px;}
+
+.testimonials .carousel-indicators li
+{
+    text-indent:0;
+    width:80px;
+    height:80px;
+    opacity:0.4;
+    border:3px solid #FFF;
+    border-radius:50%;
+    overflow:hidden;
+    margin:5px;
+    -webkit-transition:all 0.5s ease;
+    -mo-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+
+.testimonials .carousel-indicators li.active {width:80px;height:80px;opacity:1;background:none;}
+
+.testimonials .carousel-indicators li img {max-width:100%;}
+
+/* Start Testimonials Section */
+
+/* Start Section Price Table */
+
+.price_table {background:#EEE;padding-top:40px;padding-bottom:40px;}
+
+.price_table .price-box
+{
+    background:#FFF;
+    padding:10px;
+    border:1px solid #DDD;
+    margin-bottom:15px
+}
+
+.price_table .price-box h2 {margin: 5px 0 15px}
+
+.price_table .price-box:hover p
+{
+    -webkit-transform:scale(1.1,1.1) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.1,1.1) rotate(360deg);
+    transform:scale(1.1,1.1) rotate(360deg);
+    border:2px solid #DFDFDF
+}
+
+.price_table .price-box p
+{
+    font-size:35px;
+    font-weight:bold;
+    color:#666;
+    width:100px;
+    height:100px;
+    background:#F3F3F3;
+    border-radius:50%;
+    line-height:100px;
+    border:2px solid #FFF;
+    -webkit-transition-duration:0.5s;
+    -moz-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    transition-duration:0.5s;
+}
+
+.price_table .price-box ul {line-height:250%;font-size:18px;}
+
+.price_table .price-box a {margin-bottom:5px;}
+
+/* End Section Price Table */
+
+/* Start Section Our Team */
+
+.our_team
+{
+    background:url('../images/Jungles_03.jpg') no-repeat center center fixed ;
+    min-height:600px;
+}
+
+.our_team .team
+{
+    background:rgba(2,2,2,0.8);
+    color:#FFF;
+    min-height:600px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.our_team .h1
+{
+    margin-bottom:60px;
+    font-family: 'CF JUNGLE', sans-serif;
+    font-size:60px;
+    color:#d6dbd2
+    /*color:rgb(42, 200, 50)*/
+}
+
+.our_team p {color:#d6dbd2}
+
+.our_team .person {margin-bottom:40px;}
+
+/* End Section Our Team */
+
+/* Start Section Subscribe */
+
+.subscribe {padding-top:40px;padding-bottom:70px;background:#EEE;}
+
+.subscribe .h1 {color:#888;letter-spacing:5px;margin-bottom:20px;}
+
+.subscribe p {margin-bottom:30px;}
+
+.subscribe .form-control {border-radius:0;margin-right:-5px;width:300px;}
+
+.subscribe button {border-radius:0;}
+
+/* End Section Subscribe */
+
+/* Start Section Statistics */
+
+.statistics
+{
+    background:url('../images/statistics-03.jpg') no-repeat center center fixed;
+    min-height:300px
+}
+
+.statistics .data
+{
+    background-color:rgba(2,2,2,0.9);
+    color:#B6B5B5;
+    min-height:300px;
+    padding-top:40px;
+    padding-bottom:70px;
+}
+
+.statistics .stats
+{
+    margin-bottom:30px;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+}
+
+.statistics .stats:hover {color:#FFF}
+
+.statistics p {font-size:60px;font-weight:600;margin-bottom:0;}
+
+.statistics span {font-size:18px}
+
+/* End Section Statistics */
+
+/* Start Section Our Skills */
+
+.our-skills {padding-top:40px;padding-bottom:70px;}
+
+.our-skills h3 {margin-top:0; font-weight:bold;}
+
+.our-skills .progress { height:36px;}
+
+.our-skills .progress-bar
+{
+    line-height:36px;
+    font-size:15px;
+    font-weight:bold;
+    text-align:left;
+    text-indent:10px;
+}
+
+/* End Section Our Skills */
+
+/* Start Section Contact Us */
+
+.contact-us
+{
+    background:url('../images/contact-us.jpg') no-repeat center center fixed ;
+    min-height:300px;
+}
+
+.contact-us .fields
+{
+    background:rgba(9,9,9,0.8);
+    min-height:300px;
+    color:#DDD;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.contact-us p {margin-bottom:40px}
+
+.contact-us textarea {height:108px;}
+
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background:rgba(82,78,78,0.7);
+    color:#FFF;
+    border:none
+}
+
+/* End Section Contact Us */
+
+/* Start Section Our Clients */
+
+.our-clients {background:#EEE;padding-top:20px;padding-bottom:20px;}
+
+.our-clients img
+{
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    margin-top:40px;
+    margin-bottom:40px;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+.our-clients img:hover {opacity:1;}
+
+/* End Section Our Clients */
+
+/* Start Section Our Ultimate Footer */
+
+.footer {background:#111;color:#AAA;padding-top:10px;}
+
+.footer a {color:#AAA;}
+
+.footer a:hover {color:#FFF;}
+
+.footer .media-body{
+    font-family: cursive;
+}
+
+.footer h3 {letter-spacing:1px;margin:30px 0 20px;}
+
+.footer .three-columns {overflow:hidden;}
+
+.footer ul {
+    font-family: cursive;
+}
+
+.footer .three-columns li {width:33.3333%;float:left;padding:5px 0;}
+
+.footer .social-list {overflow:hidden;margin:20px 0 10px;}
+
+.footer .social-list li
+{
+    float:left;
+    margin-right:3px;
+    opacity:0.7;
+    filter:alpha(opactiy=70)
+}
+
+.footer .social-list li:hover
+{
+    opacity:1;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+.footer .img-thumbnail
+{
+    background:rgba(0,0,0,0.2);
+    border:1px solid #444;
+    margin-bottom:5px;
+    margin: 2px 8px 20px;
+    border-radius: 94% 79% 100% 76%/100% 100% 76% 100%;
+    border: 2px dashed #fff;
+}
+
+.footer .copyright
+{
+    background:#333;
+    color:#AAA;
+    margin-top:30px;
+    font-size:18px;
+    font-family: 'Droid Sans';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer .copyright .copyright-text{
+    padding: 25px;
+}
+
+
+.footer .copyright img{
+    max-width: 100%;
+    float: left;
+    margin: 0 -318px 0px;
+
+}
+
+@media (max-width:767px) {
+    .footer .copyright img {
+        width: 300px;
+        max-width: 100%;
+        margin-top: -30px !important;
+        display: inline-block;
+        float: none
+    }
+}
+
+.footer .our-awesome-animals .o-a-a {margin:30px 45px}
+
+.footer .media img {border-radius: 16% 79% 100% 79%/100% 100% 76% 100%;}
+
+.footer .our-awesome-animals .animal-1{
+    transform: rotate(-4deg);
+}
+
+.footer .our-awesome-animals .animal-2{
+    transform: rotate(6deg);
+}
+
+.footer .our-awesome-animals .animal-3{
+    transform: rotate(6deg);
+}
+
+.footer .our-awesome-animals .animal-4{
+    transform: rotate(-4deg);
+}
+
+/* End Section Our Ultimate Footer */
+
+
+/* Start Section Loading */
+
+.loading-overlay
+{
+    background:#888;
+    color:#FFF;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:99999;
+}
+
+.spinner {
+  animation: Rotate 2.4s both infinite linear;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 60vh;
+  width: 60vh;
+  margin:100px auto;
+  overflow: hidden;
+}
+.path {
+  animation: DrawLine 1.6s both infinite alternate linear;
+  fill: none;
+  stroke: #FFF;
+  stroke-width: 50;
+}
+@keyframes Rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes DrawLine {
+  0% {
+    stroke-dasharray: 0 126;
+  }
+  100% {
+    stroke-dasharray: 126 126;
+  }
+}
+
+/* End Section Loading */
+
+
+/* Start Scrollup */
+
+#scroll-top
+{
+    width:50px;
+    height:40px;
+    background:#777;
+    color:#DDD;
+    text-align:center;
+    position:fixed;
+    z-index:9999;
+    right:15px;
+    bottom:10px;
+    cursor:pointer;
+    display:none
+}
+
+/* End Scrollup */
+
+
+/* Start our Grouping System */
+
+.contact-us,
+.statistics,
+.our_team
+{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.features .h1,
+.testimonials .h1,
+.price_table .h1,
+.statistics .h1,
+.our-skills .h1 {margin-bottom:50px}
+
+/* End our Grouping System */

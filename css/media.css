@@ -1,0 +1,69 @@
+/* From Mobile To Tablets */
+
+@media (max-width:767px)
+{
+    .navbar-inverse .navbar-nav > li > a
+    {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    
+    .subscribe .form-control
+    {
+        margin:20px auto;
+        width:400px;
+    }
+    
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height:none
+    }
+    
+    .our-awesome-animals
+    {
+        text-align:center;
+    }
+    
+    .about-zookeeper h2 {font-size: 31px}
+    
+    .footer .bottom-img{
+        margin-right: 10px;
+    }
+
+    .about-zookeeper .btn-primary{
+        margin-bottom: 35px        
+    }
+    
+    .footer .copyright img{
+        margin:0 0
+    }
+
+}
+    
+}
+
+/* Small Screen */
+
+@media (min-width:768px) and ( max-width:991px )
+{
+    .footer .copyright img{
+        margin: 0 104px 0;
+    }
+}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px)
+{
+    .footer .our-awesome-animals{
+        margin: 0 -2px;        
+    }
+}
+
+/* Large Screen */
+
+@media (min-width:1200px)
+{
+    
+}

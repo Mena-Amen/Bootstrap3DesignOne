@@ -1,0 +1,11 @@
+nav.navbar.navbar-inverse.navbar-fixed-top:after {
+    position : absolute;
+    content : '';
+    display : block;
+    background : linear-gradient(135deg, #41474c 25%, transparent 25%),
+    linear-gradient(-135deg,#41474c 25%, transparent 25%);
+    background-size: 8px 31px;
+    height: 24px;
+    width: 100%;
+    left: 0;
+}

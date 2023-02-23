@@ -1,0 +1,10 @@
+CF JUNGLE
+
+STANDARD :
+
+        <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/cf-jungle">
+
+
+Specify in CSS
+
+font-family: 'CF JUNGLE', sans-serif;

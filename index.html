@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- IE Compatibility Meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- First Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 3 Design [1] Home</title>
+        <link rel='stylesheet' href='css/bootstrap.css' />
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.4/css/all.css' />
+        <link rel='stylesheet' href='css/style.css' />
+        <link rel='stylesheet' href='css/media.css'>
+        <link rel='stylesheet' href='css/default_theme.css' />
+        <link rel='stylesheet' href='css/hover.css' />
+        <link rel='stylesheet' href='css/animate.css' />
+        <link rel='stylesheet' href='http://fonts.cdnfonts.com/css/cf-jungle' />
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' />
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway:900' />        
+        <!-- [if It IE9] -->
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <!-- Start Section Tool Box -->
+        
+        <section class="option-box">
+            <div class="color-option">
+                <h4>Color Option</h4>
+                <ul class="list-unstyled">
+                    <li data-value="css/default_theme.css"></li>
+                    <li data-value="css/pink_theme.css"></li>
+                    <li data-value="css/limegreen_theme.css"></li>
+                    <li data-value="css/yellow_theme.css"></li>
+                    <li data-value="css/blue_theme.css"></li>
+                </ul>
+            </div>
+            <i class="fas fa-cog fa-3x gear-check"></i>
+        </section>
+        
+        <!-- End Section Tool Box -->
+        
+        
+        <!-- Start our Navbar -->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">         
+          <div class="container">
+            <div class="navbar-header">               
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ournavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>          
+              <a class="navbar-brand hvr-bounce-in" href="#">MENIPER<span>ZOO</span></a>
+                <img class="header-logo img-responsive hidden-sm" src="images/site-logo-09.png">
+            </div>
+            <div class="collapse navbar-collapse" id="ournavbar">                
+              <ul class="nav navbar-nav navbar-right">                
+                <li class="active"><a href="index.html">Home</a></li>                
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>                             
+                <li><a href="map.html">Map</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Free WIFI</a></li>
+                    <li><a href="#">Safeguarding</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>               
+                </li>                  
+              </ul>                                  
+            </div>           
+          </div><!-- End Of The Container -->       
+        </nav>
+        
+        <!-- End Of Our Navbar -->
+        
+        <!-- Start Carousel -->
+        
+        <div id="myslide" class="carousel slide hidden-xs" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myslide" data-slide-to="0" class="active"></li>
+            <li data-target="#myslide" data-slide-to="1"></li>
+            <li data-target="#myslide" data-slide-to="2"></li>
+            <li data-target="#myslide" data-slide-to="3"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            
+            <div class="item active">
+              <img src="images/011.jpg" alt="Giraffe">
+              <div class="carousel-caption hidden-xs wow fadeInDownBig" data-wow-delay="3s">
+                <div class="Giraffe-new-class">
+                <h1>Giraffe</h1>
+                <p>I'm Taller Than You And You Know It ... HAHAHA</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item">
+              <img src="images/022.jpg" alt="Cheetah">
+              <div class="carousel-caption hidden-xs wow fadeInUp" data-wow-delay="1s">
+                <div class="Cheetah-new-class">
+                <h1>Cheetah</h1>
+                <p class="lead">I'm The Fastest on This Planet</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item">
+              <img src="images/033.jpg" alt="Rhino">
+              <div class="carousel-caption hidden-xs wow hinge" data-wow-delay="4.5s">
+                <div class="Rhino-new-class">
+                <h1>Rhino</h1>
+                <p class="lead">Stay Away From My Face!</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item">
+              <img src="images/044.jpg" alt="Crocodile">
+              <div class="carousel-caption hidden-xs wow fadeInLeftBig" data-wow-delay="1s">
+                <div class="Crocodile-new-class">
+                <h1>Crocodile</h1>
+                <p>Call Me Kahawy.</p>
+                <div class="btn btn-danger">Enter The Wilderness</div>
+                </div>
+              </div>
+            </div>  
+
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          
+          <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+          
+        </div>        
+        
+        <!-- End Carousel -->
+        
+        <!-- Start Section About -->
+        
+        <section class="about text-center  wow bounceIn" data-wow-duration="2s" data-wow-offset="300">
+            <h1>Visit Our New Zoo <span>Meniper'Tourism Inc.</span></h1>
+            <p class="lead">Welcome To The Best ZOO Ever That Built-up By Meniper'Company With<strong> Bootstap</strong> 3.2.0 EST.2021 </p>
+        </section>
+        
+        <!-- End Section About -->
+        
+        <!-- Start Section Features -->
+        
+        <section class="features text-center">
+            <div class="container">
+                <h2 class="h1">Our Animals</h2>
+                <div class="row">
+                    
+                    <div class="col-lg-3 col-md-6">
+                        
+                        <div class="feat wow bounceInLeft" data-wow-duration="2s" data-wow-offset="100">
+                            <span class="glyphicon glyphicon-tree-conifer"></span>
+                            <h4>Giraffe</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        
+                        <div class="feat wow bounceInUp" data-wow-duration="2s" data-wow-offset="100">
+                            <span class="glyphicon glyphicon-flash"></span>
+                            <h4>Cheetah</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        
+                        <div class="feat wow bounceInDown" data-wow-duration="2s" data-wow-offset="100">
+                            <span class="glyphicon glyphicon-fire"></span>
+                            <h4>Rhino</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        
+                        <div class="feat wow bounceInRight" data-wow-duration="2s" data-wow-offset="100">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                            <h4>Crocodile</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        
+                    </div>                    
+                    
+                </div>
+            </div>
+            
+        </section>
+          
+        <!-- End Section Features -->
+            
+        <!-- Start Testimonials section -->
+        
+        <section class="testimonials text-center wow flipInY" data-wow-duration="1s" data-wow-offset="200">
+            
+            <!-- Start Container -->
+            
+            <div class="container">
+                
+                <h2 class="h1">What Our Clients Say</h2>
+                
+                <!-- Start Testimonials Carousel -->
+                
+                <div id="carousel_testimonials" class="carousel slide" data-ride="carousel">
+                
+                  
+                  <div class="carousel-inner">
+                    
+                    <div class="item active">
+                        <p class="lead">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                        <span>Mariam</span>
+                    </div>
+                    
+                    <div class="item">
+                        <p class="lead">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                        <span>Abo Samra</span>
+                    </div>
+                    
+                    <div class="item">
+                        <p class="lead">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                        <span>Kahawy</span>
+                    </div>
+                    
+                    <div class="item">
+                        <p class="lead">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                        <span>El BOB</span>
+                    </div>  
+        
+                  </div>
+                  
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel_testimonials" data-slide-to="0" class="active">
+                        <img src="images/avatar_055.jpg" alt="Mariam" />
+                    </li>
+                    <li data-target="#carousel_testimonials" data-slide-to="1">
+                        <img src="images/avatar_02.jpg" alt="Abo Samra" />
+                    </li>
+                    <li data-target="#carousel_testimonials" data-slide-to="2">
+                        <img src="images/avatar_03.jpg" alt="Kahawy" />
+                    </li>
+                    <li data-target="#carousel_testimonials" data-slide-to="3">
+                        <img src="images/avatar_04.jpg" alt="Eng.El BoB" />
+                    </li>
+                  </ol>
+    
+                </div>        
+                
+                <!-- End Testimonials Carousel  -->
+            
+            </div>
+            
+            <!-- End Container -->
+            
+        </section>
+        
+        <!-- End Testimonials section -->
+        
+        <!-- Start Section Price Table -->
+        
+        <section class="price_table text-center">
+            <div class="container">
+                
+                <h2 class="h1">Our Amazing Prices</h2>
+                
+                <div class="row">
+                    
+                    <div class="col-lg-3 col-sm-6 clo-xs-12">
+                        <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
+                            <h2 class="text-primary">Hosting</h2>
+                            <p class="center-block">$40</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emails: 20</li>
+                                <li>Ips: 2 IP</li>
+                                <li>Databases: 10</li>
+                                <li>Ftp Accounts: 5</li>
+                            </ul>
+                            <a herf="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-sm-6 clo-xs-12">
+                        <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="200">
+                            <h2 class="text-success">Vps</h2>
+                            <p class="center-block">$50</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 50GB</li>
+                                <li>Emails: 30</li>
+                                <li>Ips: 5 IP</li>
+                                <li>Databases: 20</li>
+                                <li>Ftp Accounts: 10</li>
+                            </ul>
+                            <a herf="#" class="btn btn-success">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-sm-6 clo-xs-12">
+                        <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
+                            <h2 class="text-info">Dedicated</h2>
+                            <p class="center-block">$70</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 80GB</li>
+                                <li>Emails: 40</li>
+                                <li>Ips: 8 IP</li>
+                                <li>Databases: 30</li>
+                                <li>Ftp Accounts: 20</li>
+                            </ul>
+                            <a herf="#" class="btn btn-info">Order Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-sm-6 clo-xs-12">
+                        <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="200">
+                            <h2 class="text-danger">Cloud</h2>
+                            <p class="center-block">$90</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 100GB</li>
+                                <li>Emails: 50</li>
+                                <li>Ips: 10 IP</li>
+                                <li>Databases: 50</li>
+                                <li>Ftp Accounts: 40</li>
+                            </ul>
+                            <a herf="#" class="btn btn-danger">Order Now</a>
+                        </div>
+                    </div>                   
+                
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- End Section Price Table -->
+        
+        <!-- Start Section Our Team -->
+        
+        <section class="our_team text-center">
+            <div class="team">
+                <div class="container">
+                    <h2 class="h1 hvr-wobble-vertical">MEET OUR AWESOME TEAM</h2>
+                    <div class="row">
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="100">
+                                <img class="img-circle hvr-grow" src="images/Karen-Gillan-02.jpg" alt="Karen Gillan" />
+                                <h3>Karen Gillan</h3>
+                                <p>Ruby Roundhouse aka "The Killer of Men" is once again a force to be reckoned with in The Next Level.</p>
+                                <i class="fab fa-google-plus fa-2x"></i>
+                                <i class="fab fa-instagram fa-2x"></i>
+                                <i class="fab fa-twitter fa-2x"></i>
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="100">
+                                <img class="img-circle hvr-shrink" src="images/Kevin-Hart-02.jpg" alt="Kevin Hart" />
+                                <h3>Kevin Hart</h3>
+                                <p>Dr. Bravestone, Franklin Finbar once again fulfills the role of being a useful sidekick and wealth of knowledge.</p>
+                                <i class="fab fa-google-plus fa-2x"></i>
+                                <i class="fab fa-instagram fa-2x"></i>
+                                <i class="fab fa-twitter fa-2x"></i>
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="100">
+                                <img class="img-circle hvr-grow"  src="images/Dwayne-Johnson-02.jpg" alt="Dwayne Johnson" />
+                                <h3>Dwayne Johnson</h3>
+                                <p>The famous international explorer Doctor Xavier 'Smolder' Bravestone is the main hero in the Jumanji video game.</p>
+                                <i class="fab fa-google-plus fa-2x"></i>
+                                <i class="fab fa-instagram fa-2x"></i>
+                                <i class="fab fa-twitter fa-2x"></i>
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="100">
+                                <img class="img-circle hvr-shrink"  src="images/Jack-Black-02.jpg" alt="Jack Black" />
+                                <h3>Jack Black</h3>
+                                <p>The professor Shelly Oberon returns in The Next Level and is the character who receives the most changes in the sequel.</p>
+                                <i class="fab fa-google-plus fa-2x"></i>
+                                <i class="fab fa-instagram fa-2x"></i>
+                                <i class="fab fa-twitter fa-2x"></i>
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Section Our Team -->
+        
+        <!-- Start Section Subscribe -->
+        
+        <section class="subscribe text-center">
+            <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+                <h2 class="h1 hvr-push">Keep In Touch</h2>
+                <p class="lead">Sign Up To Become A Future Zoologist !</p>
+                <form class="form-inline">
+                    <input class="form-control input-lg" type="text" placeholder="Write Your Email">
+                    <button class="btn btn-danger btn-lg"><i class="fas fa-edit"></i>Subscribe</button>
+                </form>
+            </div>
+        </section>
+        
+        <!-- End Section Subscribe -->
+        
+        <!-- Start Section Statistics -->
+        
+        <section class="statistics text-center">
+            <div class="data">
+                <div class="container">
+                    <h2 class="h1">Our Main Statistics</h2>
+                    <div class="row">
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats hvr-pop">
+                                <i class="fas fa-users fa-5x"></i>
+                                <p>12,122</p>
+                                <span>Satisfied Members</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats hvr-pop">
+                                <i class="fas fa-comments fa-5x"></i>
+                                <p>23,715</p>
+                                <span>Posted Comments</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats hvr-pop">
+                                <i class="fas fa-suitcase fa-5x"></i>
+                                <p>4,654</p>
+                                <span>Projects Done</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats hvr-pop">
+                                <i class="fas fa-ticket-alt fa-5x"></i>
+                                <p>79,998</p>
+                                <span>Tickets Archieved</span>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <!-- End Section Statistics -->
+        
+        <!-- Start Section Our Skills -->
+        
+        <section class="our-skills">
+            <div class="container">
+                <h2 class="text-center h1">Our Skills</h2>
+                <div class="row">
+                    
+                    <!-- Start Progress Skills -->
+                    
+                    <div class="col-md-5">
+                        <div class="skills-progress">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-vlauemax="100" style="width:80%">
+                                    Karate
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-vlauemax="100" style="width:50%">
+                                    Speed
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-vlauemax="100" style="width:95%">
+                                    Strength
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-vlauemax="100" style="width:20%">
+                                    Heat
+                                </div>
+                            </div>                                 
+                        </div>
+                    </div>
+                    
+                    <!-- End Progress Skills -->
+                    
+                    <!-- Start Team Info -->
+                    
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="skills-info">
+                            <h3>About The Team</h3>
+                            <p class="lead">Leaders need to know their strengths and weaknesses like the players in Jumanji. Knowing your strengths and weaknesses will help you avoid leadership pitfalls and allow you to excel in the areas you’re already gifted in.</p>
+                            <button type="button" class="btn btn-primary">Talk With A Zoologist</button>
+                        </div>
+                    </div>
+                    
+                    <!-- End Team Info -->                    
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Section Our Skills -->
+        
+        
+        <!-- Start Section Contact Us -->
+        
+        <section class="contact-us text-center">
+            <div class="fields">
+                <div class="container">
+                    <div class="row">
+                        <i class="fas fa-headphones fa-5x hvr-buzz-out"></i>
+                        <h2 class="h1">Tell Us What You Feel</h2>
+                        <p class="lead">Feel Great To Contact Us Anytime</p>
+                        
+                        <!-- Start Contact Form -->
+                        
+                        <form role="form">
+                            <div class="col-md-6 wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
+                                <div class="form-group">
+                                    <textarea class="form-control input-lg" placeholder="Write Your Message"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+                            </div>
+                        </form>
+                        
+                        <!-- Start Contact Form -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Section Contact Us -->
+        
+        <!-- Start Section Our Clients -->
+        
+        <div class="our-clients">
+            <div class="container">
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/CNN.png" alt="CNN" data-wow-duration=".5s" data-wow-delay=".5s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/ABC.png" alt="ABC" data-wow-duration=".5s" data-wow-delay="1s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/WSJ.png" alt="WSJ" data-wow-duration=".5s" data-wow-delay="1.5s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/NYT.png" alt="NYT" data-wow-duration=".5s" data-wow-delay="2s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/time2c.png" alt="time2c" data-wow-duration=".5s" data-wow-delay="2.5s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/UNI.png" alt="UNI" data-wow-duration=".5s" data-wow-delay="3s" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Start Section Our Clients -->
+        
+        <!-- Start Section Ultimate Footer -->
+        
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Sitemap</h3>
+                        <ul class="list-unstyled three-columns">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Company</li>
+                            <li>Code</li>
+                            <li>Design</li>
+                            <li>Host</li>
+                            <li>Solutions</li>
+                            <li>Sitemap</li>
+                            <li>Contact</li>
+                        </ul>
+                        <ul class="list-unstyled social-list">
+                            <li><img src="images/social-bookmarks/facebook-3.png" alt="Facebook">
+                            <li><img src="images/social-bookmarks/instagram.png" alt="Instagram"></li>                            
+                            <li><img src="images/social-bookmarks/gplus-02.png" alt="Gplus"></li>
+                            <li><img src="images/social-bookmarks/pinterest.png" alt="Pinterest"></li>
+                            <li><img src="images/social-bookmarks/rss.png" alt="Rss"></li>
+                            <li><img src="images/social-bookmarks/twitter.png" alt="Twitter"></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Latest Articles</h3>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/articals/penguins-01.jpg" alt="Penguins" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Penguins
+                                </h4>
+                                This is a Family of Penguins That Living in a Nature reserve
+                            </div>
+                        </div>
+                        
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/articals/lizard-01.jpg" alt="Yellow and Green Coated Lizard" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Chameleon
+                                </h4>
+                                This is a Rare Type Of lizards Called Chameleon That Living in a Nature reserve
+                            </div>
+                        </div>
+                        
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/articals/monkeys-01.jpg" alt="Monkeys" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Monkeys
+                                </h4>
+                                A Peaceful Monkeys That Living only on Trees
+                            </div>                            
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="our-awesome-animals">
+                        <h3 class="o-a-a">Our Awesome Animals</h3>
+                        <img class="img-thumbnail animal-1" src="images/our-awesome-animals/koala-bears.jpg" alt="Koala" />
+                        <img class="img-thumbnail animal-2" src="images/our-awesome-animals/panda.jpg" alt="Panda" />
+                        <img class="img-thumbnail animal-3" src="images/our-awesome-animals/toucan.jpg" alt="touca" />
+                        <img class="img-thumbnail animal-4" src="images/our-awesome-animals/elephant.jpg" alt="Elephant" />                            
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="copyright text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="copyright-text col-md-9">
+                            Copyright &copy; 2021 <span>Meniper </span>Inc.
+                        </div>
+                        <div class="col-md-3">
+                            <div class="copyright-logo hidden-md hidden-sm">
+                                <img class="img-responsive" src="images/footer-logo-02.png" alt="ZOOLOGO">                                
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Section Ultimate Footer -->
+        
+        <!-- Start Section Loading -->
+        
+        <section class="loading-overlay">
+            <svg class="spinner" viewBox="0 0 100 100" height="150px" width="150px">
+              <clipPath id="clip3">
+                <path d="M 43.694984,19.925946 44.437766,19.893651 45.374318,19.441523 47.053652,18.246612 48.506922,17.277765 49.637243,16.922521 H 50.864449 L 52.156245,17.180881 53.38345,17.826778 52.511488,17.955958 51.801001,18.666445 51.574937,19.570702 51.607232,20.668729 51.639526,21.73446 51.445757,22.832486 50.993629,23.995102 50.638385,23.769038 50.250846,23.220025 50.057077,22.703306 48.668397,25.642141 47.990204,25.448372 47.376601,24.737884 46.859883,23.704448 46.698409,22.057409 46.730703,20.765613 46.536934,20.248895 46.18169,19.990536 45.697267,19.893651 45.180549,20.055126 44.405471,20.248895 43.824163,20.184305 Z" />
+                <path d="M 25.674436,27.805899 27.54754,27.321476 28.613271,26.740168 29.420643,26.15886 29.00081,26.09427 28.645566,25.739026 28.354912,25.060833 28.225732,23.930512 28.354912,22.767896 28.710156,21.443806 29.259169,20.34578 30.034246,20.636434 30.841618,21.314626 31.648991,22.348063 32.101119,23.349204 32.424068,23.833628 33.005376,24.091987 33.845043,24.156576 34.81389,23.542974 35.524377,22.929371 36.105685,22.283473 36.07339,22.897076 36.13798,23.510679 36.299454,24.188871 36.170275,24.57641 35.718146,24.899359 35.266018,24.867064 34.910774,24.963949 34.7493,25.157718 34.781595,25.448372 35.007659,25.739026 35.427492,25.835911 35.944211,25.932795 36.234865,26.126565 36.364044,26.449514 35.911916,26.255744 35.524377,26.223449 35.007659,26.320334 34.426351,26.707873 33.29603,27.224591 31.84276,27.515245 29.485233,27.644424 27.127706,27.805899 Z" />
+                <path d="M 60.655324,22.143375 62.48733,22.223027 63.721943,21.904418 64.677772,21.506156 66.230994,21.386677 69.178134,21.625634 70.890661,22.023896 71.727012,22.62129 71.01014,22.700942 70.054311,23.059378 69.735701,23.537293 70.213615,23.975381 70.930487,25.409125 71.687185,26.763216 72.404057,27.400435 73.081103,27.639393 74.036932,27.87835 72.961624,27.958002 71.567707,27.918176 69.735701,27.280957 68.301957,26.40478 66.828387,25.010862 65.673427,23.816076 65.036208,23.13903 64.598119,22.939899 H 63.841421 L 63.164376,23.13903 62.248373,23.099204 61.133239,22.820421 60.615498,22.541637 Z" />
+                <path d="M 68.421436,46.556844 69.21796,46.716149 69.974658,46.517018 70.572051,45.919625 70.890661,45.123101 71.408402,44.685012 72.364231,44.326576 73.00145,44.167271 73.041277,43.848662 72.563362,43.4504 72.085448,43.410573 71.607533,43.370747 72.523536,42.454744 73.160755,42.056482 73.997106,41.937003 75.11224,42.175961 74.79363,40.901522 74.873283,39.188995 75.391023,37.356989 76.227374,35.485157 77.382334,33.215063 78.019553,31.343231 78.57712,29.829834 78.696599,28.953658 79.53295,29.551051 80.448953,31.064447 80.807388,32.458365 80.887041,34.409849 80.966693,36.719769 V 39.746562 L 80.68791,41.220132 80.289648,42.096308 79.771907,42.653875 79.21434,43.012311 79.134687,43.291095 79.293992,43.649531 80.329474,43.848662 81.962349,43.928314 82.918178,43.888488 83.953659,43.689357 V 44.764665 L 83.63505,45.800146 82.878352,46.835628 82.002175,47.393195 80.847215,47.831283 79.891386,47.791457 79.572776,46.755975 79.015209,46.039104 78.457642,45.720494 77.621291,45.680668 76.426505,46.039104 75.152066,46.795802 73.439539,47.433021 71.687185,47.5525 70.133963,47.353369 68.979003,47.074585 Z" />
+                <path d="M 72.547118,59.319829 73.081103,59.301233 73.917453,58.863144 74.355542,58.664013 75.191892,58.783492 75.789285,58.902971 76.346852,58.624187 76.904419,58.305577 77.700944,58.265751 78.417816,57.708184 78.776252,56.991312 78.89573,56.234614 79.811733,56.433745 80.68791,57.031139 81.086172,57.74801 81.00652,58.863144 80.090517,59.619843 79.254166,59.938452 78.736425,60.018105 78.776252,60.496019 79.094861,60.69515 79.811733,61.01376 80.807388,61.212891 81.803044,61.292544 81.922522,61.690806 81.84287,62.328025 81.364955,62.965245 80.847215,63.164376 79.971038,63.044897 79.293992,62.566982 78.816078,62.009415 78.377989,61.770458 77.900075,61.730632 77.42216,62.288199 76.944246,63.044897 75.988417,63.921074 73.877627,65.394644 72.523536,65.952211 71.488054,66.151342 70.532225,66.031863 71.288923,65.076034 71.84649,64.000726 73.081103,62.208546 74.036932,61.252717 74.47502,60.814629 74.514847,60.416367 74.275889,60.057931 73.598844,59.779147 Z" />
+                <path d="M 61.59399,67.789597 H 62.197459 L 62.961852,67.910291 63.766476,68.473528 64.530869,69.157459 65.2148,69.278152 65.858499,69.076996 66.341274,68.835609 66.86428,68.87584 67.387285,69.278152 69.19769,71.16902 70.726476,73.18058 71.088557,74.307054 71.370176,75.312835 71.329944,76.238153 71.088557,76.720927 70.967863,76.560002 70.686245,75.554222 69.921852,74.588673 68.956303,74.025436 67.910291,74.105898 66.86428,74.347286 68.111447,75.795609 68.674684,76.680696 V 77.083008 L 68.111447,77.887632 66.944742,78.491101 65.89873,78.772719 65.094106,78.611794 64.691794,78.370407 64.329713,77.968095 64.410175,74.990985 61.875609,75.916303 60.628441,76.680696 59.864048,77.646245 59.501967,78.652026 59.180117,79.45665 58.697343,79.939424 58.415724,80.261274 V 80.422199 L 58.576649,80.663586 58.536418,80.864742 H 58.254799 L 57.369713,79.496881 57.007632,78.12902 57.208788,76.600234 58.093875,74.025436 59.542198,71.732257 60.346823,70.324164 61.151447,69.881621 61.754915,69.720696 62.076765,69.680465 62.197459,69.19769 62.076765,68.634453 Z" />
+                <path d="M 35.121851,66.984973 34.679307,67.990754 34.478151,68.916071 V 69.801158 L 34.719539,71.329944 35.363238,72.657575 36.851793,75.674916 37.334568,76.519771 37.656417,76.720927 38.05873,76.761158 38.461042,76.47954 38.621967,76.439309 38.702429,76.600234 37.938036,77.606014 36.570175,78.692257 35.644857,79.215263 35.121851,79.295725 35.041388,79.537112 34.920695,80.180812 35.162082,80.663586 35.564394,81.146361 36.248325,81.186592 36.972487,80.824511 37.696649,79.939424 38.380579,79.175031 38.903585,78.611794 39.949597,78.330176 42.04162,78.008326 44.012949,77.163471 45.622198,75.83584 46.708441,74.789829 46.788903,74.186361 46.66821,73.864511 H 46.426822 L 46.265897,74.347286 45.581967,74.749598 44.616418,74.709366 43.972718,74.548442 43.892256,74.387517 44.214105,73.985205 44.69688,73.582892 45.219886,73.50243 44.214105,73.220812 43.168094,73.261043 42.36347,73.582892 41.800233,73.703586 41.357689,73.582892 40.794452,72.617343 39.587516,71.209251 38.018498,69.841389 36.248325,68.513759 35.443701,67.749366 Z" />
+                <path d="M 28.282545,64.89295 25.82844,63.88717 25.104278,63.484857 24.661735,63.002083 V 62.318152 L 24.903122,60.829597 25.466359,57.892719 V 56.323701 L 25.224972,55.27769 24.541041,54.392603 23.937573,54.110984 23.293874,54.151216 22.609943,54.754684 21.483469,56.484626 19.994914,59.823817 19.713295,60.829597 19.793758,62.197459 20.19607,63.203239 20.920232,63.726245 21.081157,64.007863 19.552371,64.168788 18.22474,64.048094 17.581041,63.88717 17.299423,64.088326 17.058035,64.772256 16.816648,65.818268 17.21896,66.663123 17.983353,67.186129 H 18.787977 L 19.632833,66.502199 20.356995,66.059655 21.000694,65.938962 21.684625,66.743586 22.609943,67.507979 24.219192,68.393066 26.110059,68.714915 27.47792,68.553991 28.081388,68.19191 28.403238,67.507979 28.282544,67.467748 27.638845,67.427517 26.83422,66.783817 26.190521,65.697574 25.908903,65.415956 Z" />
+                <path d="M 26.954914,34.920695 25.747978,36.771331 25.50659,37.254105 25.466359,37.656417 25.82844,38.340348 26.029596,39.38636 25.707746,41.840464 25.064047,44.656649 24.299654,45.903816 23.253642,46.829134 22.489249,47.150984 22.609943,46.547516 22.569712,45.622198 22.408787,44.898036 V 43.892256 L 22.489249,42.966938 22.85133,42.04162 22.770868,41.116302 22.368556,40.512834 21.724856,40.311678 21.322544,40.39214 21.121388,41.116302 20.719076,41.880695 20.19607,42.162313 19.512139,42.202545 18.667284,41.558845 18.144278,40.311678 V 39.38636 L 18.586821,38.903585 19.471908,38.621967 20.155839,38.340348 20.316764,37.777111 20.115608,37.173643 19.471908,36.851793 18.908671,36.972487 17.902891,37.495492 18.22474,36.208094 19.150058,34.880464 20.51792,33.914914 21.805319,33.552833 23.454798,34.035608 24.219192,34.920695 24.50081,35.685088 25.50659,35.162082 26.270983,35.08162 Z" />
+              </clipPath>
+              <path class="path" clip-path="url(#clip3)" d="M 69.953283,51.366174 C 69.19877,62.386066 59.653719,70.707801 48.633826,69.953283 37.613934,69.19877 29.292199,59.653719 30.046717,48.633826 30.80123,37.613934 40.346281,29.292199 51.366174,30.046717 62.386066,30.80123 70.707801,40.346281 69.953283,51.366174" />
+            </svg>
+        </section>
+        
+        <!-- End Section Loading -->
+        
+        <!-- Start Scroll To Top -->
+        
+        <div id="scroll-top">
+            <i class="fas fa-chevron-up fa-3x"></i>
+        </div>
+        
+        <!-- End Scroll To Top -->
+ 
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+    </body>
+</html>
